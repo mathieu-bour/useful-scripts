@@ -1,5 +1,5 @@
 #!/usr/bin/env bash
-VERSION=${1:'7.4'};
+VERSION=${1:-"7.4"};
 # Install ondrej/php PPA
 sudo add-apt-repository ppa:ondrej/php
 

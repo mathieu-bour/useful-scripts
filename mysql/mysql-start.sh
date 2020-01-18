@@ -7,5 +7,5 @@ docker run -d \
   --name mysql \
   -p 3306:3306 \
   -v mysql_data:/var/lib/mysql \
-  -e MYSQL_ROOT_PASSWORD="$MYSQL_ROOT_PASSWORD"
+  -e MYSQL_ROOT_PASSWORD="$MYSQL_ROOT_PASSWORD" \
   "$IMAGE"

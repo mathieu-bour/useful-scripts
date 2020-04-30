@@ -5,7 +5,6 @@ sudo add-apt-repository ppa:ondrej/php
 
 sudo apt-get update
 sudo apt install -y \
-  "php$VERSION" \
   "php$VERSION-cli" \
   "php$VERSION-curl" \
   "php$VERSION-gd" \

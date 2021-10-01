@@ -9,7 +9,6 @@ sudo apt install -y \
   "php$VERSION-curl" \
   "php$VERSION-gd" \
   "php$VERSION-gmp" \
-  "php$VERSION-json" \
   "php$VERSION-mbstring" \
   "php$VERSION-mysql" \
   "php$VERSION-opcache" \

@@ -6,4 +6,4 @@ docker run -d \
   -p 9090:9000 \
   -v /var/run/docker.sock:/var/run/docker.sock \
   -v portainer_data:/data \
-  portainer/portainer-ce:2.0.0-alpine
+  portainer/portainer-ce:2.1.1-alpine
